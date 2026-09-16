@@ -6,7 +6,7 @@
 ## Project Overview
 An interactive, parameter-driven Tableau application designed to evaluate the economic stability of major global economies between 2015 and 2025. This project translates raw macroeconomic indicators into pre-attentive visual insights, allowing analysts to quickly identify stagflation risks and structural economic shifts.
 
-**[View the Live Interactive Dashboard on Tableau Public]([Insert-Your-Tableau-Public-Link-Here])**
+**[View the Live Interactive Dashboard on Tableau Public]([https://public.tableau.com/app/profile/arya.patil6423/viz/MacroeconomicsResilienceEngine/Dashboard1?])**
 
 ## 📸 Dashboard Gallery
 
