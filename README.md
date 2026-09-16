@@ -11,13 +11,13 @@ An interactive, parameter-driven Tableau application designed to evaluate the ec
 ## 📸 Dashboard Gallery
 
 ### 1. Global Overview (Macro Trends & Correlation)
-*[Insert a high-res screenshot of Dashboard 1 here: `![Overview](assets/dashboard1.png)`]*
+![Overview](assets/1st.png)
 *   **Sparkline:** Tracks average global inflation over a decade.
 *   **Correlation Engine:** Scatter plot analyzing the relationship between Consumer Inflation (CPI) and GDP Growth to identify stagflation clusters.
 *   **Resilience Score Matrix:** A custom-engineered metric `((GDP * 1.5) - CPI)` utilizing a diverging heat map to instantly flag economic distress.
 
 ### 2. Country Deep Dive (Micro-Analysis)
-*[Insert a high-res screenshot of Dashboard 2 here: `![Deep Dive](assets/dashboard2.png)`]*
+![Deep Dive](assets/2nd.png)
 *   **Dynamic Navigation:** Parameter Actions allow users to click any entity on the overview page to instantly load a filtered deep-dive profile.
 *   **Dual-Axis Focus Trend:** Contrasts local inflation spikes against local economic growth.
 *   **Bump Chart Ranking:** Tracks shifting global economic dominance over time using custom Z-order highlighting.
@@ -35,6 +35,6 @@ An interactive, parameter-driven Tableau application designed to evaluate the ec
 *   **Total Reserves:** Central bank holdings of foreign currencies and gold.
 
 ## 🚀 How to Run Locally
-1. Clone this repository: `git clone https://github.com/yourusername/macroeconomic-resilience-engine.git`
-2. Download the `/data` folder and the `.twbx` file.
-3. Open `Macroeconomic_Resilience_Engine.twbx` using Tableau Desktop or the free Tableau Reader.
+1. Clone this repository: `git clone https://github.com/aryapatil7089/Macroeconomic-Resilience-Engine.git`
+2. Download the `cleaned_world_bank_data.csv` file and the `macroeconomics.twbx` file.
+3. Open `macroeconomics.twbx` using Tableau Desktop or the free Tableau Reader.
