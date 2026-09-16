@@ -12,13 +12,14 @@ An interactive, parameter-driven Tableau application designed to evaluate the ec
 
 ### 1. Global Overview (Macro Trends & Correlation)
 ![Overview](assets/1st.png)
+*   **Global KPI Banner:** Tracks average GDP, CPI, Total Reserves, and features a dynamic **Recession Count** flagging countries currently in economic contraction.
 *   **Sparkline:** Tracks average global inflation over a decade.
 *   **Correlation Engine:** Scatter plot analyzing the relationship between Consumer Inflation (CPI) and GDP Growth to identify stagflation clusters.
-*   **Resilience Score Matrix:** A custom-engineered metric `((GDP * 1.5) - CPI)` utilizing a diverging heat map to instantly flag economic distress.
 
 ### 2. Country Deep Dive (Micro-Analysis)
 ![Deep Dive](assets/2nd.png)
 *   **Dynamic Navigation:** Parameter Actions allow users to click any entity on the overview page to instantly load a filtered deep-dive profile.
+*   **Resilience Score:** A custom-engineered composite metric `((GDP * 1.5) - CPI)` utilizing a custom diverging color scale to instantly quantify economic stability.
 *   **Dual-Axis Focus Trend:** Contrasts local inflation spikes against local economic growth.
 *   **Bump Chart Ranking:** Tracks shifting global economic dominance over time using custom Z-order highlighting.
 
